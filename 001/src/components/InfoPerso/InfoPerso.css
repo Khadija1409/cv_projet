@@ -1,0 +1,35 @@
+.info-perso h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.info-perso .titre {
+  margin: 0.4rem 0 0;
+  font-size: 1.15rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.info-perso .resume {
+  max-width: 60ch;
+  margin: 1rem 0;
+  color: var(--discret);
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.4px 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--trait);
+}
+
+.contacts li {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  font-size: 13.6px;
+  color: var(--discret);
+}

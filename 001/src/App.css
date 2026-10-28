@@ -1,0 +1,35 @@
+.cv {
+  max-width: 880px;
+  margin: 2rem auto;
+  background: var(--papier);
+  padding: 3rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(27, 36, 48, 0.12);
+}
+
+.cv-corps {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 700px) {
+  .cv {
+    margin: 0;
+    padding: 1.5rem;
+    border-radius: 0;
+  }
+
+  .cv-corps {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media print {
+  .cv {
+    margin: 0;
+    box-shadow: none;
+  }
+}

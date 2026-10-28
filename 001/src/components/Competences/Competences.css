@@ -1,0 +1,11 @@
+.groupe + .groupe {
+  margin-top: 22.4px;
+}
+
+.groupe h3 {
+  margin-bottom: 0.4rem;
+}
+
+.groupe li {
+  padding: 0.15rem 0;
+}

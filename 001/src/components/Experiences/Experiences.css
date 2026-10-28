@@ -1,0 +1,46 @@
+.experience + .experience {
+  margin-top: 28.8px;
+}
+
+.experience-entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.periode {
+  font-size: 14.4px;
+  color: var(--discret);
+  white-space: nowrap;
+}
+
+.lieu {
+  margin: 3.2px 0 9.6px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.experience li {
+  position: relative;
+  padding-left: 17.6px;
+  margin-bottom: 4.8px;
+}
+
+.experience li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+@media (max-width: 700px) {
+  .experience-entete {
+    flex-direction: column;
+    gap: 1.6px;
+  }
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+  --fond: #e9edf1;
+  --papier: #ffffff;
+  --encre: #1b2430;
+  --discret: #5b6674;
+  --accent: #0f6b6b;
+  --trait: #d5dbe2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Newsreader', Georgia, serif;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22.4px;
+  font-weight: 600;
+  padding-bottom: 6.4px;
+  margin-bottom: 19.2px;
+  border-bottom: 2px solid var(--accent);
+}
+
+h3 {
+  font-size: 17.6px;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+}
